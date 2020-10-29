@@ -1,0 +1,12 @@
+apiVersion: example.com/v1
+kind: Cosweb
+metadata:
+  name: example-cosweb
+spec:
+  # Add fields here
+  replicas: 1
+  name: "cosweb"
+  image: "scabarrus/cosweb:1.0"
+  labels: 
+    app: "cosweb"
+    type: "webservice"
