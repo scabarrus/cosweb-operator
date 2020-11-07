@@ -1,6 +1,6 @@
 # Invoke REST API
 # Invoke a REST API as a part of your pipeline.
-- task: InvokeRESTAPI@1
+- task: 
   inputs:
     #connectionType: 'Generic' # Options: connectedServiceName, connectedServiceNameARM
     #serviceConnection: # Required when connectionType == ConnectedServiceName
