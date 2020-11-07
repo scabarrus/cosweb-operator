@@ -1,3 +1,7 @@
+trigger:
+  - master
+
+  steps:
 - task: InvokeRESTAPI@1
   inputs:
     connectionType: 'connectedServiceName'
